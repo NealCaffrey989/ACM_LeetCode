@@ -1,0 +1,19 @@
+﻿Build started 2015/4/27 10:38:52.
+     1>Project "D:\Program\C++\ACM_Programfan\ACM_Programfan\ACM_Programfan.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ACM_Programfan.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ACM_Programfan.cpp
+         ACM_Programfan.cpp
+     1>d:\program\c++\acm_programfan\acm_programfan\acm_programfan.cpp(76): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\program\c++\acm_programfan\acm_programfan\acm_programfan.cpp(77): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\program\c++\acm_programfan\acm_programfan\acm_programfan.cpp(80): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\program\c++\acm_programfan\acm_programfan\acm_programfan.cpp(93): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>d:\program\c++\acm_programfan\acm_programfan\acm_programfan.cpp(99): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+       Link:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Program\C++\ACM_Programfan\Debug\ACM_Programfan.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Program\C++\ACM_Programfan\Debug\ACM_Programfan.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Program\C++\ACM_Programfan\Debug\ACM_Programfan.lib" /MACHINE:X86 Debug\ACM_Programfan.obj
+         Debug\stdafx.obj
+         ACM_Programfan.vcxproj -> D:\Program\C++\ACM_Programfan\Debug\ACM_Programfan.exe
+     1>Done Building Project "D:\Program\C++\ACM_Programfan\ACM_Programfan\ACM_Programfan.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.56

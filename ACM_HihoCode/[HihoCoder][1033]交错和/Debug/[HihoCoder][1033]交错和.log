@@ -1,0 +1,11 @@
+﻿Build started 2015/5/21 17:39:13.
+     1>Project "D:\Program\C++\ACM_HihoCode\[HihoCoder][1033]交错和\[HihoCoder][1033]交错和.vcxproj" on node 2 (ClCompile target(s)).
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\[HihoCoder][1033]交错和.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "[HihoCoder][1033]交错和.cpp"
+         [HihoCoder][1033]交错和.cpp
+     1>d:\program\c++\acm_hihocode\[hihocoder][1033]交错和\[hihocoder][1033]交错和.cpp(38): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>Done Building Project "D:\Program\C++\ACM_HihoCode\[HihoCoder][1033]交错和\[HihoCoder][1033]交错和.vcxproj" (ClCompile target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.75

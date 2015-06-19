@@ -1,0 +1,14 @@
+﻿Build started 2015/5/10 17:28:14.
+     1>Project "D:\Program\C++\ACM_Programfan\[LeetCode]Search Insert Position\[LeetCode]Search Insert Position.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\[LeetCode]Search Insert Position.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "[LeetCode]Search Insert Position.cpp"
+         [LeetCode]Search Insert Position.cpp
+       Link:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Program\C++\ACM_Programfan\Debug\[LeetCode]Search Insert Position.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Program\C++\ACM_Programfan\Debug\[LeetCode]Search Insert Position.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Program\C++\ACM_Programfan\Debug\[LeetCode]Search Insert Position.lib" /MACHINE:X86 Debug\stdafx.obj
+         "Debug\[LeetCode]Search Insert Position.obj"
+         [LeetCode]Search Insert Position.vcxproj -> D:\Program\C++\ACM_Programfan\Debug\[LeetCode]Search Insert Position.exe
+     1>Done Building Project "D:\Program\C++\ACM_Programfan\[LeetCode]Search Insert Position\[LeetCode]Search Insert Position.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.32
