@@ -23,10 +23,24 @@ false
 */
 class Solution {
 public:
-	bool isValid(vector<vector<char>> board){
-
+	bool findPath(vector<vector<char>> board, string word, int x, int y, int index){
+		if (index == word.size() - 1)
+			return true;
+		char ctmp = board[x][y];
+		board[x][y] = '#';
+		size_t row = board.size();
+		size_t col = board[0].size();
+		if (x - 1 >= 0 && board[x - 1][y] == word[index + 1] && findPath(board, word, x - 1, y, index + 1))
+			return true;
+		if (x + 1 < row && board[x + 1][y] == word[index + 1] && findPath(board, word, x + 1, y, index + 1))
+			return true;
+		if (y - 1 >= 0 && board[x][y - 1] == word[index + 1] && findPath(board, word, x, y - 1, index + 1))
+			return true;
+		if (y + 1 < col && board[x][y + 1] == word[index + 1] && findPath(board, word, x, y + 1, index + 1))
+			return true;
+		board[x][y] = ctmp;
+		return false;
 	}
-	bool findPath(){}
 	bool exist(vector<vector<char>>& board, string word) {
 		if (word.empty())
 			return true;
@@ -34,14 +48,9 @@ public:
 			return false;
 		size_t row = board.size();
 		size_t col = board[0].size();
-		vector<vector<bool>> sign;
-		for (size_t i = 0; i < row; ++i){
-			vector<bool> s(col, true);
-			sign.push_back(s);
-		}
 		for (size_t i = 0; i < row; ++i){
 			for (size_t j = 0; j < col; ++j){
-				if (board[i][j] == word[0]&&findPath(board,word,))
+				if (board[i][j] == word[0] && findPath(board, word, i, j, 0))
 					return true;
 			}
 		}
@@ -50,7 +59,7 @@ public:
 };
 int main(void){
 	Solution answer;
-	string str[] = { "ABCE","SFCS","ADEE" };
+	char str[4][4] = { 'A', 'B', 'C', 'E', 'S', 'F', 'C', 'S', 'A', 'D', 'E', 'E'};
 	vector<vector<char>> ret;
 	for (size_t i = 0; i < 4; ++i){
 		vector<char> r;
