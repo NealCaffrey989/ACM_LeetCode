@@ -1,0 +1,16 @@
+﻿Build started 2015/6/28 22:05:06.
+     1>Project "D:\Program\GitHub\ACM\ACM_Programfan\[LeetCode]Minimum Window Substring\[LeetCode]Minimum Window Substring.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\[LeetCode]Minimum Window Substring.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "[LeetCode]Minimum Window Substring.cpp"
+         [LeetCode]Minimum Window Substring.cpp
+     1>d:\program\github\acm\acm_programfan\[leetcode]minimum window substring\[leetcode]minimum window substring.cpp(23): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\program\github\acm\acm_programfan\[leetcode]minimum window substring\[leetcode]minimum window substring.cpp(42): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Program\GitHub\ACM\ACM_Programfan\Debug\[LeetCode]Minimum Window Substring.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Program\GitHub\ACM\ACM_Programfan\Debug\[LeetCode]Minimum Window Substring.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Program\GitHub\ACM\ACM_Programfan\Debug\[LeetCode]Minimum Window Substring.lib" /MACHINE:X86 Debug\stdafx.obj
+         "Debug\[LeetCode]Minimum Window Substring.obj"
+         [LeetCode]Minimum Window Substring.vcxproj -> D:\Program\GitHub\ACM\ACM_Programfan\Debug\[LeetCode]Minimum Window Substring.exe
+     1>Done Building Project "D:\Program\GitHub\ACM\ACM_Programfan\[LeetCode]Minimum Window Substring\[LeetCode]Minimum Window Substring.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.91

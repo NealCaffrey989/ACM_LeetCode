@@ -30,7 +30,7 @@ public:
 			return -1;
 		}
 		if (nums[f] < target){
-			if (nums[f]<nums[mid]&&target>nums[mid])
+			if (nums[f] < nums[mid] && target > nums[mid])
 				return search(nums, mid + 1, l, target);
 			else
 				return search(nums, f, mid - 1, target);
@@ -44,7 +44,7 @@ public:
 		return -1;
 	}
 	int search(vector<int>& nums, int target) {
-		if (nums.size() == 0)
+		if (nums.empty())
 			return -1;
 		return search(nums, 0, nums.size()-1, target);
 	}
@@ -52,23 +52,16 @@ public:
 
 int main(void){
 	Solution answer;
-	vector<int> v;
-	const int x = 4, xmax = 10;
-	v.push_back(5);
-	v.push_back(1);
-	v.push_back(3);
-/*	for (int i = x; i < xmax; i++)
-		v.push_back(i);
-	for (int i = 0; i < x; i++)
-		v.push_back(i);
-	for (int i = 0; i < v.size(); i++)
-		cout << v[i] << " ";
-	cout << endl;*/
-	cout << answer.search(v, 7) << endl;
-	cout << answer.search(v, 4) << endl;
-	cout << answer.search(v, 9) << endl;
-	cout << answer.search(v, 10) << endl;
-	cout << answer.search(v, 2) << endl;
+	int a[] = { 3, 1, 2, 2, 2 };
+	vector<int> ret;
+	for (size_t i = 0; i < 5; ++i)
+		ret.push_back(a[i]);
+	cout << answer.search(ret, 1) << endl;
+	cout << answer.search(ret, 7) << endl;
+	cout << answer.search(ret, 4) << endl;
+	cout << answer.search(ret, 9) << endl;
+	cout << answer.search(ret, 10) << endl;
+	cout << answer.search(ret, 3) << endl;
 	system("Pause");
 	return 0;
 }

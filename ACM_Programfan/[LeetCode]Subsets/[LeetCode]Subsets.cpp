@@ -23,13 +23,11 @@ Output:
 */
 class Solution {
 public:
-	void fingSubsets(vector<vector<int>> &ret, vector<int> ans, vector<int> nums, int z, int k){
+	void fingSubsets(vector<vector<int>> &ret, vector<int> ans, vector<int> nums, int z){
 		ret.push_back(ans);
-		if (z == k)
-			return;
 		for (size_t i = z; i < nums.size(); ++i){
 			ans.push_back(nums[i]);
-			fingSubsets(ret, ans, nums, i + 1, k);
+			fingSubsets(ret, ans, nums, i + 1);
 			ans.pop_back();
 		}
 	}
@@ -39,7 +37,7 @@ public:
 			return ret;
 		sort(nums.begin(), nums.end());
 		vector<int> ans;
-		fingSubsets(ret, ans, nums, 0, nums.size());
+		fingSubsets(ret, ans, nums, 0);
 		return ret;
 	}
 };

@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 /*
-Input: 
+Input:
 Output:
 */
 class Solution {
