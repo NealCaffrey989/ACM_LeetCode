@@ -1,0 +1,14 @@
+﻿Build started 2015/7/9 11:22:46.
+     1>Project "D:\Program\GitHub\ACM\ACM_Programfan\[LeetCode]Construct Binary Tree from Preorder and Inorder Traversal\[LeetCode]Construct Binary Tree from Preorder and Inorder Traversal.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\[LeetCode]Construct Binary Tree from Preorder and Inorder Traversal.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "[LeetCode]Construct Binary Tree from Preorder and Inorder Traversal.cpp"
+         [LeetCode]Construct Binary Tree from Preorder and Inorder Traversal.cpp
+       Link:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Program\GitHub\ACM\ACM_Programfan\Debug\[LeetCode]Construct Binary Tree from Preorder and Inorder Traversal.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Program\GitHub\ACM\ACM_Programfan\Debug\[LeetCode]Construct Binary Tree from Preorder and Inorder Traversal.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Program\GitHub\ACM\ACM_Programfan\Debug\[LeetCode]Construct Binary Tree from Preorder and Inorder Traversal.lib" /MACHINE:X86 Debug\stdafx.obj
+         "Debug\[LeetCode]Construct Binary Tree from Preorder and Inorder Traversal.obj"
+         [LeetCode]Construct Binary Tree from Preorder and Inorder Traversal.vcxproj -> D:\Program\GitHub\ACM\ACM_Programfan\Debug\[LeetCode]Construct Binary Tree from Preorder and Inorder Traversal.exe
+     1>Done Building Project "D:\Program\GitHub\ACM\ACM_Programfan\[LeetCode]Construct Binary Tree from Preorder and Inorder Traversal\[LeetCode]Construct Binary Tree from Preorder and Inorder Traversal.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.45

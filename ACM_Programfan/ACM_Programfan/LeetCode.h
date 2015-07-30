@@ -12,6 +12,19 @@ int main(void){
 	system("Pause");
 	return 0;
 }
+#include <WinSock2.h>
+void soccc(){
+	SOCKET sockSrv = socket(AF_INET, SOCK_DGRAM, 0);
+	SOCKADDR_IN addSrv;
+	addSrv.sin_addr.S_un.S_addr = htonl(INADDR_ANY);
+	addSrv.sin_family = AF_INET;
+	addSrv.sin_port = htons(6000);
+	bind(sockSrv, (SOCKADDR*)&addSrv, sizeof(SOCKADDR));
+	SOCKADDR addrClient;
+	while (1){
+
+	}
+}
 #include "stdafx.h"
 #include <mutex>
 #include <atomic> 
