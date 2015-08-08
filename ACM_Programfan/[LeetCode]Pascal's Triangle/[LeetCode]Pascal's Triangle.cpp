@@ -22,15 +22,10 @@ public:
 		vector<vector<int>> ret;
 		if (numRows <= 0)
 			return ret;
-		vector<int> m(1, 1);
-		ret.push_back(m);
-		while (--numRows){
-			vector<int> nums(1,1);
-			vector<int> back = ret.back();
-			for (size_t i = 0; i < back.size() - 1; ++i)
-				nums.push_back(back[i] + back[i + 1]);
-			nums.push_back(1);
-			ret.push_back(nums);
+		for (int i = 0; i < numRows; ++i){
+			ret.push_back(vector<int>(i + 1, 1));
+			for (int j = 1; j < i; ++j)
+				ret[i][j] = ret[i - 1][j] + ret[i - 1][j - 1];
 		}
 		return ret;
 	}

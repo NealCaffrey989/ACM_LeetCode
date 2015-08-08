@@ -30,7 +30,7 @@ public:
 };
 int main(void){
 	Solution answer;	
-	vector<int> ans{ 3, 3, 0, 3, 3, 0, 3, 3 };
+	vector<int> ans{ 3, 3, 0, 3, 0, 3, 0, 0, 3 };
 	cout << answer.majorityElement(ans) << endl;
 	system("Pause");
 	return 0;

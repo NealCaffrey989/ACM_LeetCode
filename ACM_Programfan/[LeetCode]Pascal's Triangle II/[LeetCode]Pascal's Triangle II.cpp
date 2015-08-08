@@ -16,23 +16,22 @@ public:
 		vector<int> ret;
 		if (rowIndex < 0)
 			return ret;
-		ret.push_back(1);
-		while (rowIndex--){
-			vector<int> nums(1,1);
-			for (size_t i = 0; i < ret.size() - 1; ++i)
-				nums.push_back(ret[i] + ret[i + 1]);
-			nums.push_back(1);
-			ret = nums;
+		ret.resize(rowIndex + 1, 1);
+		for (int i = 0; i <= rowIndex; ++i){
+			for (int j = i - 1; j >= 1; --j)
+				ret[j] = ret[j] + ret[j - 1];
 		}
 		return ret;
 	}
 };
 int main(void){
 	Solution answer;
-	vector<int> ret = answer.getRow(3);
-	for (size_t i = 0; i < ret.size(); ++i)
-		cout << ret[i] << " ";
-	cout << endl;
+	for (int z = 0; z < 5; ++z){
+		vector<int> ret = answer.getRow(z);
+		for (size_t i = 0; i < ret.size(); ++i)
+			cout << ret[i] << " ";
+		cout << endl;
+	}
 	system("Pause");
 	return 0;
 }
