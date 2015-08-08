@@ -29,11 +29,8 @@ public:
 	}
 };
 int main(void){
-	Solution answer;
-	int a[] = { 3, 3, 3, 0, 0, 3, 3, 3 };
-	vector<int> ans;
-	for (size_t i = 0; i < 8; ++i)
-		ans.push_back(a[i]);
+	Solution answer;	
+	vector<int> ans{ 3, 3, 0, 3, 3, 0, 3, 3 };
 	cout << answer.majorityElement(ans) << endl;
 	system("Pause");
 	return 0;

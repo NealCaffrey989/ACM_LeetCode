@@ -325,6 +325,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[LeetCode]Lowest Common Anc
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[LeetCode]Longest Consecutive Sequence", "[LeetCode]Longest Consecutive Sequence\[LeetCode]Longest Consecutive Sequence.vcxproj", "{84CA3977-D52E-4069-B6EF-184F8482C6F6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[LeetCode]Palindrome Partitioning", "[LeetCode]Palindrome Partitioning\[LeetCode]Palindrome Partitioning.vcxproj", "{65B8CA61-2579-4CE5-A85A-FF671A992995}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -975,6 +977,10 @@ Global
 		{84CA3977-D52E-4069-B6EF-184F8482C6F6}.Debug|Win32.Build.0 = Debug|Win32
 		{84CA3977-D52E-4069-B6EF-184F8482C6F6}.Release|Win32.ActiveCfg = Release|Win32
 		{84CA3977-D52E-4069-B6EF-184F8482C6F6}.Release|Win32.Build.0 = Release|Win32
+		{65B8CA61-2579-4CE5-A85A-FF671A992995}.Debug|Win32.ActiveCfg = Debug|Win32
+		{65B8CA61-2579-4CE5-A85A-FF671A992995}.Debug|Win32.Build.0 = Debug|Win32
+		{65B8CA61-2579-4CE5-A85A-FF671A992995}.Release|Win32.ActiveCfg = Release|Win32
+		{65B8CA61-2579-4CE5-A85A-FF671A992995}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
