@@ -10,7 +10,6 @@ public:
 };
 int main(void){
 	Solution answer;
-	http://www.taobao.com
 	system("Pause");
 	return 0;
 }

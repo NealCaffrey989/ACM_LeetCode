@@ -4,37 +4,38 @@
 #include "stdafx.h"
 #include <iostream>
 #include <vector>
-#include <set>
+#include <map>
 #include <algorithm>
 using namespace std;
 /*
-Input:
-Output:
+Input:[100, 4, 200, 1, 3, 2]
+Output:4
 */
 class Solution {
 public:
-	int findBound(set<int>& flag, int n, bool asc){
-		int ans = 0;
-		set<int>::iterator iter;
-		while ((iter = flag.find(n)) != flag.end()){
-			flag.erase(iter);
-			ans++;
-			if (asc) 
-				n--; 
-			else 
-				n++;
-		}
-		return ans;
-	}
 	int longestConsecutive(vector<int> &num) {
-		set<int> flag;
-		int ans = 0;
-		flag.clear();
-		for (int i = 0; i < num.size(); i++)
-			flag.insert(num[i]);
-		for (int i = 0; i < num.size(); i++)
-			ans = max(findBound(flag, num[i], true) + findBound(flag, num[i] + 1, false), ans);
-		return ans;
+		if (num.empty())
+			return 0;
+		map<int, bool> num_map;
+		for (vector<int>::const_iterator iter = num.begin(); iter != num.end(); ++iter)
+			num_map[*iter] = true;
+		int longest = 0;
+		for (vector<int>::const_iterator iter = num.begin(); iter != num.end(); ++iter){
+			if (!num_map[*iter])
+				continue;
+			int count = 1;
+			num_map[*iter] = false;
+			for (int j = *iter + 1; num_map.find(j) != num_map.end(); ++j){
+				num_map[j] = false;
+				count++;
+			}
+			for (int j = *iter - 1; num_map.find(j) != num_map.end(); --j){
+				num_map[j] = false;
+				count++;
+			}
+			longest = max(longest, count);
+		}
+		return longest;
 	}
 };
 int main(void){
