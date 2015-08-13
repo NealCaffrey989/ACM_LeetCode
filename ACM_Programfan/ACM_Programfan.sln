@@ -331,6 +331,26 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[LeetCode]Valid Palindrome"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[LeetCode]Surrounded Regions", "[LeetCode]Surrounded Regions\[LeetCode]Surrounded Regions.vcxproj", "{EAFE4938-3F85-463B-AB13-4544AA67BB5A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[LeetCode]Single Number II", "[LeetCode]Single Number II\[LeetCode]Single Number II.vcxproj", "{CB8CCFFC-D62C-41B3-8F67-32D6D995A717}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[LeetCode]Valid Anagram", "[LeetCode]Valid Anagram\[LeetCode]Valid Anagram.vcxproj", "{00F22CA4-982A-45E3-9D51-05E5901E3E86}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[LeetCode]Implement Stack using Queues", "[LeetCode]Implement Stack using Queues\[LeetCode]Implement Stack using Queues.vcxproj", "{5744380B-6B70-460F-BDF6-18782A782CBB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[LeetCode]Compare Version Numbers", "[LeetCode]Compare Version Numbers\[LeetCode]Compare Version Numbers.vcxproj", "{CF4AC01E-986D-420B-A34F-D5812EC3FCCB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[LeetCode]Implement Queue using Stacks", "[LeetCode]Implement Queue using Stacks\[LeetCode]Implement Queue using Stacks.vcxproj", "{394935B3-04FA-4493-A4AE-89EB4E77A983}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[LeetCode]Power of Two", "[LeetCode]Power of Two\[LeetCode]Power of Two.vcxproj", "{E1D45EA3-2EC2-4F43-8B73-1C497C55F055}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[LeetCode]Excel Sheet Column Title", "[LeetCode]Excel Sheet Column Title\[LeetCode]Excel Sheet Column Title.vcxproj", "{420332B8-F094-45A8-AF3C-60DB143552B6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[LeetCode]Excel Sheet Column Number", "[LeetCode]Excel Sheet Column Number\[LeetCode]Excel Sheet Column Number.vcxproj", "{32B5B2EC-6149-4FF9-9938-2539F3F48623}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[LeetCode]Factorial Trailing Zeroes", "[LeetCode]Factorial Trailing Zeroes\[LeetCode]Factorial Trailing Zeroes.vcxproj", "{A1AA3719-7136-434A-AD5F-68D3F9648E86}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[LeetCode]Count Primes", "[LeetCode]Count Primes\[LeetCode]Count Primes.vcxproj", "{E86362A8-CE3B-43A3-B4AF-F82ABBFE8818}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -993,6 +1013,46 @@ Global
 		{EAFE4938-3F85-463B-AB13-4544AA67BB5A}.Debug|Win32.Build.0 = Debug|Win32
 		{EAFE4938-3F85-463B-AB13-4544AA67BB5A}.Release|Win32.ActiveCfg = Release|Win32
 		{EAFE4938-3F85-463B-AB13-4544AA67BB5A}.Release|Win32.Build.0 = Release|Win32
+		{CB8CCFFC-D62C-41B3-8F67-32D6D995A717}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CB8CCFFC-D62C-41B3-8F67-32D6D995A717}.Debug|Win32.Build.0 = Debug|Win32
+		{CB8CCFFC-D62C-41B3-8F67-32D6D995A717}.Release|Win32.ActiveCfg = Release|Win32
+		{CB8CCFFC-D62C-41B3-8F67-32D6D995A717}.Release|Win32.Build.0 = Release|Win32
+		{00F22CA4-982A-45E3-9D51-05E5901E3E86}.Debug|Win32.ActiveCfg = Debug|Win32
+		{00F22CA4-982A-45E3-9D51-05E5901E3E86}.Debug|Win32.Build.0 = Debug|Win32
+		{00F22CA4-982A-45E3-9D51-05E5901E3E86}.Release|Win32.ActiveCfg = Release|Win32
+		{00F22CA4-982A-45E3-9D51-05E5901E3E86}.Release|Win32.Build.0 = Release|Win32
+		{5744380B-6B70-460F-BDF6-18782A782CBB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5744380B-6B70-460F-BDF6-18782A782CBB}.Debug|Win32.Build.0 = Debug|Win32
+		{5744380B-6B70-460F-BDF6-18782A782CBB}.Release|Win32.ActiveCfg = Release|Win32
+		{5744380B-6B70-460F-BDF6-18782A782CBB}.Release|Win32.Build.0 = Release|Win32
+		{CF4AC01E-986D-420B-A34F-D5812EC3FCCB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CF4AC01E-986D-420B-A34F-D5812EC3FCCB}.Debug|Win32.Build.0 = Debug|Win32
+		{CF4AC01E-986D-420B-A34F-D5812EC3FCCB}.Release|Win32.ActiveCfg = Release|Win32
+		{CF4AC01E-986D-420B-A34F-D5812EC3FCCB}.Release|Win32.Build.0 = Release|Win32
+		{394935B3-04FA-4493-A4AE-89EB4E77A983}.Debug|Win32.ActiveCfg = Debug|Win32
+		{394935B3-04FA-4493-A4AE-89EB4E77A983}.Debug|Win32.Build.0 = Debug|Win32
+		{394935B3-04FA-4493-A4AE-89EB4E77A983}.Release|Win32.ActiveCfg = Release|Win32
+		{394935B3-04FA-4493-A4AE-89EB4E77A983}.Release|Win32.Build.0 = Release|Win32
+		{E1D45EA3-2EC2-4F43-8B73-1C497C55F055}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E1D45EA3-2EC2-4F43-8B73-1C497C55F055}.Debug|Win32.Build.0 = Debug|Win32
+		{E1D45EA3-2EC2-4F43-8B73-1C497C55F055}.Release|Win32.ActiveCfg = Release|Win32
+		{E1D45EA3-2EC2-4F43-8B73-1C497C55F055}.Release|Win32.Build.0 = Release|Win32
+		{420332B8-F094-45A8-AF3C-60DB143552B6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{420332B8-F094-45A8-AF3C-60DB143552B6}.Debug|Win32.Build.0 = Debug|Win32
+		{420332B8-F094-45A8-AF3C-60DB143552B6}.Release|Win32.ActiveCfg = Release|Win32
+		{420332B8-F094-45A8-AF3C-60DB143552B6}.Release|Win32.Build.0 = Release|Win32
+		{32B5B2EC-6149-4FF9-9938-2539F3F48623}.Debug|Win32.ActiveCfg = Debug|Win32
+		{32B5B2EC-6149-4FF9-9938-2539F3F48623}.Debug|Win32.Build.0 = Debug|Win32
+		{32B5B2EC-6149-4FF9-9938-2539F3F48623}.Release|Win32.ActiveCfg = Release|Win32
+		{32B5B2EC-6149-4FF9-9938-2539F3F48623}.Release|Win32.Build.0 = Release|Win32
+		{A1AA3719-7136-434A-AD5F-68D3F9648E86}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A1AA3719-7136-434A-AD5F-68D3F9648E86}.Debug|Win32.Build.0 = Debug|Win32
+		{A1AA3719-7136-434A-AD5F-68D3F9648E86}.Release|Win32.ActiveCfg = Release|Win32
+		{A1AA3719-7136-434A-AD5F-68D3F9648E86}.Release|Win32.Build.0 = Release|Win32
+		{E86362A8-CE3B-43A3-B4AF-F82ABBFE8818}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E86362A8-CE3B-43A3-B4AF-F82ABBFE8818}.Debug|Win32.Build.0 = Debug|Win32
+		{E86362A8-CE3B-43A3-B4AF-F82ABBFE8818}.Release|Win32.ActiveCfg = Release|Win32
+		{E86362A8-CE3B-43A3-B4AF-F82ABBFE8818}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
