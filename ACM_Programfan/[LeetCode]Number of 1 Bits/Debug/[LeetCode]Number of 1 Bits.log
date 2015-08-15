@@ -1,0 +1,12 @@
+﻿Build started 2015/8/14 16:38:03.
+     1>Project "D:\Program\GitHub\ACM\ACM_Programfan\[LeetCode]Number of 1 Bits\[LeetCode]Number of 1 Bits.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\[LeetCode]Number of 1 Bits.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "[LeetCode]Number of 1 Bits.cpp"
+         [LeetCode]Number of 1 Bits.cpp
+     1>d:\program\github\acm\acm_programfan\[leetcode]number of 1 bits\[leetcode]number of 1 bits.cpp(17): error C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(341,5): error MSB6006: "CL.exe" exited with code 2.
+     1>Done Building Project "D:\Program\GitHub\ACM\ACM_Programfan\[LeetCode]Number of 1 Bits\[LeetCode]Number of 1 Bits.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.18
