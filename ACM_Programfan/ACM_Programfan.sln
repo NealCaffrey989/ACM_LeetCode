@@ -369,6 +369,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[LeetCode]Isomorphic String
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[LeetCode]Happy Number", "[LeetCode]Happy Number\[LeetCode]Happy Number.vcxproj", "{E07A881D-76AC-4FCB-9EB2-FEAA593D4EB6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[LeetCode]Add Digits", "[LeetCode]Add Digits\[LeetCode]Add Digits.vcxproj", "{ACCD0245-9B7B-4A78-8CA7-950336F6DED2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[LeetCode]Delete Node in a Linked List", "[LeetCode]Delete Node in a Linked List\[LeetCode]Delete Node in a Linked List.vcxproj", "{7B932464-73E9-4E27-9EB1-E4CD0FDFFCD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -1107,6 +1111,14 @@ Global
 		{E07A881D-76AC-4FCB-9EB2-FEAA593D4EB6}.Debug|Win32.Build.0 = Debug|Win32
 		{E07A881D-76AC-4FCB-9EB2-FEAA593D4EB6}.Release|Win32.ActiveCfg = Release|Win32
 		{E07A881D-76AC-4FCB-9EB2-FEAA593D4EB6}.Release|Win32.Build.0 = Release|Win32
+		{ACCD0245-9B7B-4A78-8CA7-950336F6DED2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ACCD0245-9B7B-4A78-8CA7-950336F6DED2}.Debug|Win32.Build.0 = Debug|Win32
+		{ACCD0245-9B7B-4A78-8CA7-950336F6DED2}.Release|Win32.ActiveCfg = Release|Win32
+		{ACCD0245-9B7B-4A78-8CA7-950336F6DED2}.Release|Win32.Build.0 = Release|Win32
+		{7B932464-73E9-4E27-9EB1-E4CD0FDFFCD7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7B932464-73E9-4E27-9EB1-E4CD0FDFFCD7}.Debug|Win32.Build.0 = Debug|Win32
+		{7B932464-73E9-4E27-9EB1-E4CD0FDFFCD7}.Release|Win32.ActiveCfg = Release|Win32
+		{7B932464-73E9-4E27-9EB1-E4CD0FDFFCD7}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
