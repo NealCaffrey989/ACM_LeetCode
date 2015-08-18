@@ -373,6 +373,16 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[LeetCode]Add Digits", "[Le
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[LeetCode]Delete Node in a Linked List", "[LeetCode]Delete Node in a Linked List\[LeetCode]Delete Node in a Linked List.vcxproj", "{7B932464-73E9-4E27-9EB1-E4CD0FDFFCD7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[LeetCode]Linked List Cycle", "[LeetCode]Linked List Cycle\[LeetCode]Linked List Cycle.vcxproj", "{A5168A12-CB33-4548-AE16-9607C1F3802A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[LeetCode]Binary Tree Paths", "[LeetCode]Binary Tree Paths\[LeetCode]Binary Tree Paths.vcxproj", "{BEA062B9-693B-47FA-BD32-787CE14DAA71}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[LeetCode]Max Points on a Line", "[LeetCode]Max Points on a Line\[LeetCode]Max Points on a Line.vcxproj", "{8EC7A54E-9A20-477D-99DC-C36EEE18FE72}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[LeetCode]Copy List with Random Pointer", "[LeetCode]Copy List with Random Pointer\[LeetCode]Copy List with Random Pointer.vcxproj", "{0C594D15-FF0E-44FE-9EEA-97AE40825B6E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[LeetCode]Sliding Window Maximum", "[LeetCode]Sliding Window Maximum\[LeetCode]Sliding Window Maximum.vcxproj", "{9DB9836C-26DE-4246-A9BB-00A5AEC40648}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -1119,6 +1129,26 @@ Global
 		{7B932464-73E9-4E27-9EB1-E4CD0FDFFCD7}.Debug|Win32.Build.0 = Debug|Win32
 		{7B932464-73E9-4E27-9EB1-E4CD0FDFFCD7}.Release|Win32.ActiveCfg = Release|Win32
 		{7B932464-73E9-4E27-9EB1-E4CD0FDFFCD7}.Release|Win32.Build.0 = Release|Win32
+		{A5168A12-CB33-4548-AE16-9607C1F3802A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A5168A12-CB33-4548-AE16-9607C1F3802A}.Debug|Win32.Build.0 = Debug|Win32
+		{A5168A12-CB33-4548-AE16-9607C1F3802A}.Release|Win32.ActiveCfg = Release|Win32
+		{A5168A12-CB33-4548-AE16-9607C1F3802A}.Release|Win32.Build.0 = Release|Win32
+		{BEA062B9-693B-47FA-BD32-787CE14DAA71}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BEA062B9-693B-47FA-BD32-787CE14DAA71}.Debug|Win32.Build.0 = Debug|Win32
+		{BEA062B9-693B-47FA-BD32-787CE14DAA71}.Release|Win32.ActiveCfg = Release|Win32
+		{BEA062B9-693B-47FA-BD32-787CE14DAA71}.Release|Win32.Build.0 = Release|Win32
+		{8EC7A54E-9A20-477D-99DC-C36EEE18FE72}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8EC7A54E-9A20-477D-99DC-C36EEE18FE72}.Debug|Win32.Build.0 = Debug|Win32
+		{8EC7A54E-9A20-477D-99DC-C36EEE18FE72}.Release|Win32.ActiveCfg = Release|Win32
+		{8EC7A54E-9A20-477D-99DC-C36EEE18FE72}.Release|Win32.Build.0 = Release|Win32
+		{0C594D15-FF0E-44FE-9EEA-97AE40825B6E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0C594D15-FF0E-44FE-9EEA-97AE40825B6E}.Debug|Win32.Build.0 = Debug|Win32
+		{0C594D15-FF0E-44FE-9EEA-97AE40825B6E}.Release|Win32.ActiveCfg = Release|Win32
+		{0C594D15-FF0E-44FE-9EEA-97AE40825B6E}.Release|Win32.Build.0 = Release|Win32
+		{9DB9836C-26DE-4246-A9BB-00A5AEC40648}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9DB9836C-26DE-4246-A9BB-00A5AEC40648}.Debug|Win32.Build.0 = Debug|Win32
+		{9DB9836C-26DE-4246-A9BB-00A5AEC40648}.Release|Win32.ActiveCfg = Release|Win32
+		{9DB9836C-26DE-4246-A9BB-00A5AEC40648}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

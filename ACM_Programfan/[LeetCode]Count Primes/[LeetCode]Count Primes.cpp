@@ -6,8 +6,8 @@
 #include <vector>
 using namespace std;
 /*
-Input:
-Output:
+Input:23
+Output:8
 */
 class Solution {
 public:

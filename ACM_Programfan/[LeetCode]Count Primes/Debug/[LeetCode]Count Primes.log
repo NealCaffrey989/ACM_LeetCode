@@ -1,4 +1,4 @@
-﻿Build started 2015/8/12 22:36:55.
+﻿Build started 2015/8/17 9:40:09.
      1>Project "D:\Program\GitHub\ACM\ACM_Programfan\[LeetCode]Count Primes\[LeetCode]Count Primes.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\[LeetCode]Count Primes.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "[LeetCode]Count Primes.cpp"
@@ -11,4 +11,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.78
+Time Elapsed 00:00:10.05
